@@ -1,0 +1,30 @@
+SECTION STRUCTURE
+  SUPERCELL 2 2 2
+  CELL FCC 10.86A
+  ATOMS 1/8*
+        Si 0 0 0
+        Si 1 1 1
+        Si 4 0 0
+        Si 5 1 1
+        Si 0 4 0
+        Si 1 5 1
+        Si 0 0 4
+        Si 1 1 5
+        Si 0 4 4
+        Si 1 5 5
+        Si 4 0 4
+        Si 5 1 5
+        Si 4 4 0
+        Si 5 5 1
+        Si 4 4 4
+#        Si 5 5 5
+END
+
+SECTION ANALYZE
+  PROJECT
+END
+
+KPTPATH (L,1,X) 500
+NBAND 50
+
+JOB BANDS

@@ -1,0 +1,19 @@
+SECTION STRUCTURE
+  SUPERCELL 2 2 2
+  CELL BCC 5.773A
+  ATOMS 1/2*
+        Fe 0 0 0 m=4
+        Fe 1 0 0 m=-4
+        Fe 0 1 0 m=-4
+        Fe 0 0 1 m=-4
+        Fe 0 1 1 m=4
+        Fe 1 0 1 m=4
+        Fe 1 1 0 m=4
+        Fe 1 1 1 m=-4
+END
+
+SPIN 2
+KPT H=1/2 (1,1,1) N=1/2 (0,0,1) P=1/4 (1,1,1)
+KPTPATH (1,P,H,N,1) 400
+
+JOB BANDS
